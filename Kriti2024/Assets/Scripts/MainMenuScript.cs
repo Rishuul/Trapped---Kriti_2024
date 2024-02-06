@@ -7,6 +7,14 @@ public class MainMenuScript : MonoBehaviour
     {
         SceneManager.LoadScene(1);
     }
+    public void OptionsButton()
+    {
+        SceneManager.LoadScene(8);
+    }
+    public void CreditsButton()
+    {
+        SceneManager.LoadScene(9);
+    }
     public void QuitButton()
     {
         Application.Quit();
