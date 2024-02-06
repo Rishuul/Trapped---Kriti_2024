@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.Audio;
+using UnityEngine.SceneManagement;
 
 public class OptionMenuScript : MonoBehaviour
 {
@@ -15,4 +16,9 @@ public class OptionMenuScript : MonoBehaviour
             sfxAudioMixer.SetFloat("SFXVolume", SFXVolume);
         }
         */
+
+    public void BackToMainMenu()
+    {
+        SceneManager.LoadScene(0);
+    }
 }
