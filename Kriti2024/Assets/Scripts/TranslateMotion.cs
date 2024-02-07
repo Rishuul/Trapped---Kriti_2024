@@ -4,6 +4,8 @@ public class TranslateMotion : MonoBehaviour
 {
     Vector2 difference = Vector2.zero;
     Camera cameras;
+    public float initalClamp;
+    public float finalClamp;
 
     void Start()
     {
@@ -18,7 +20,7 @@ public class TranslateMotion : MonoBehaviour
     }
     
     private void OnMouseDrag(){
-        transform.position = new Vector2(((Vector2)cameras.ScreenToWorldPoint(Input.mousePosition) - difference).x,transform.position.y);
+        transform.position = new Vector2(Mathf.Clamp(((Vector2)cameras.ScreenToWorldPoint(Input.mousePosition) - difference).x,initalClamp,finalClamp),transform.position.y);
     }
 
     

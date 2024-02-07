@@ -13,7 +13,7 @@ public class Launch : MonoBehaviour
     private float x_component;
     private float y_component;
     public float interval = 0.01f;
-    public LineRenderer lr;
+   [HideInInspector] public LineRenderer lr;
     public int PointsNumber = 200;
     private Vector2 direction;
 
@@ -76,7 +76,7 @@ public class Launch : MonoBehaviour
         lr.positionCount = PointsNumber;
         for(int i=0 ; i<PointsNumber ; i++){
             float x = x_component*time;
-            float y = y_component*time- (1/2)*time*time*10;
+            float y = y_component*time- (1f/2f)*time*time*10f;
             Vector2 point = new Vector2(x,y);
             lr.SetPosition(i,origin+point);
             time += interval;
