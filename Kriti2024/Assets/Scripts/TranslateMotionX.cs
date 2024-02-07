@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class TranslateMotion : MonoBehaviour
+public class TranslateMotionX : MonoBehaviour
 {
     Vector2 difference = Vector2.zero;
     Camera cameras;

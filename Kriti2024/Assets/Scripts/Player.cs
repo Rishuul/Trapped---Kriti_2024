@@ -11,7 +11,7 @@ public class Player : MonoBehaviour
     void Start()
     {
         ball = GetComponent<Rigidbody2D>();
-        MuzzleTransform2D = GameObject.FindGameObjectWithTag("Muzzle").GetComponent<Transform>();
+        MuzzleTransform2D = GameObject.FindGameObjectWithTag("MuzzlePoint").GetComponent<Transform>();
         this.transform.position = MuzzleTransform2D.position;
 
         Portal2Transform2D = GameObject.FindGameObjectWithTag("PortalBlue2").GetComponent<Transform>();
