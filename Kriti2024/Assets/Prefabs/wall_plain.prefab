@@ -74,7 +74,11 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+<<<<<<< Updated upstream
   m_Sprite: {fileID: 21300000, guid: b6266c4640973ae4cbd4d2f9e0394310, type: 3}
+=======
+  m_Sprite: {fileID: 21300000, guid: 20f7e1260c28892469b20c55a3da510a, type: 3}
+>>>>>>> Stashed changes
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
