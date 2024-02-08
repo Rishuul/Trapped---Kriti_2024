@@ -11,7 +11,11 @@ GameObject:
   - component: {fileID: 2278040158456202686}
   - component: {fileID: 3613851720915893372}
   - component: {fileID: 3927415493256851022}
+<<<<<<< HEAD
   - component: {fileID: 6199419765191301862}
+=======
+  - component: {fileID: -8684349559187194637}
+>>>>>>> 62f08fbca32e40bcab61a58d333f7dcf4350908d
   m_Layer: 0
   m_Name: spike
   m_TagString: Untagged
@@ -75,7 +79,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 162d32a803df30e40b7346f4929a0e54, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6416b13d5cec1b74996ae0eba1c9583c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -131,7 +135,11 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.27, y: 0.45}
   m_EdgeRadius: 0
+<<<<<<< HEAD
 --- !u!114 &6199419765191301862
+=======
+--- !u!114 &-8684349559187194637
+>>>>>>> 62f08fbca32e40bcab61a58d333f7dcf4350908d
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
