@@ -6,6 +6,7 @@ TagManager:
   tags:
   - BallLauncher
   - MuzzlePoint
+  - PortalBlue2
   layers:
   - Default
   - TransparentFX

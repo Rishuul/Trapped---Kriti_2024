@@ -3,6 +3,7 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     private Rigidbody2D ball;
+    public Transform finalPortal;
     private Transform MuzzleTransform2D;
 
     private Transform PlayerTransform2D, Portal1Transform2D, Portal2Transform2D;
@@ -32,14 +33,17 @@ public class Player : MonoBehaviour
 
 
     }
-}
-
-    /*private void OnTriggerEnter2D(Collider2D other){
+    private void OnTriggerEnter2D(Collider2D other)
+    {
         if(other.gameObject.layer == 10){
             this.transform.position = Portal2Transform2D.position;
         }
-        
+        if(other.gameObject.tag == "PortalBlue2")
+        {
+            transform.position = finalPortal.transform.position;
         }
-    }*/
+        
+    }
+    }
     
 
