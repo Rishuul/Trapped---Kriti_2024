@@ -20,7 +20,6 @@ A physics-based 2D platformer where you control a bouncing ball trying to escape
 ## 🚀 Upcoming Features
 - 🤖 **ML-Agents AI Enemies** that learn from the player.
 - 🌎 **More Levels** with increasing difficulty.
-- 🔊 **Sound Effects & Music** to enhance the experience.
 
 ## 🔧 Technologies Used
 - 🎮 **Game Engine:** Unity
